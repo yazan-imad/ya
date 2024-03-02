@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+        <title>Abu</title>
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <!-- Font awesome cdn link -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Custom css file link -->
+    <link rel="stylesheet" type="text/css" href="b.css"/>
+
+
+    
+    </head>
+    <body>
+ <!-- header section starts-->
+
+ <header>
+
+<div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>T</span>ourism</a>
+
+    <nav class="navbar">
+<!--<a href="#home">home</a>
+<a href="#book">book</a>
+<a href="#packages">packages</a>
+<a href="#services">services</a>
+<a href="#gallery">gallery</a>
+<a href="#review">review</a>
+<a href="#contact">contact</a>
+     </nav>-->
+     <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+     </div>
+
+  <form action="" class="search-bar-container"> 
+    <input type="search" id="search-bar" placeholder="search here...">
+    <label for="search-bar"  class="fas fa-search" ></label>
+  </form>
+
+ </header>
+
+ <!-- header section ends-->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+
+    <i class="ri-close-line" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+       
+        <input type="email" class="box" placeholder="Enter your email">
+        <input type="password" class="box" placeholder="Enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+
+</div>
+
+
+
+
+
+
+<!--
+
+<section class="book" id="book">
+
+
+
+
+
+
+    <div class="row">
+      <div class="image">
+            <img src="pic/1.png" alt="">
+        </div>
+
+<form action="">
+
+
+
+	<table>
+	
+	<tr>
+	
+	
+	
+	
+	
+	
+	
+	
+	<td colspan="2">
+	<div class="inputBox">
+        <h3>name</h3>
+        <input type="text" placeholder="enter your name">
+    </div></td>
+	
+	
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	
+	
+	
+	<td colspan="2">
+	<div class="inputBox">
+        <h3>email</h3>
+        <input type="email" placeholder="enter your email">
+    </div>
+	
+	
+	
+	
+	
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	
+	
+	
+	
+</td>
+<td colspan="2">
+<div class="inputBox">
+        <h3>phone</h3>
+        <input type="number" placeholder="number of phone">
+    </div></td>
+	
+	
+	
+	
+	
+	
+	
+	
+</tr>
+   <tr> <td>
+        <div class="inputBox">
+            <h3>where to</h3>
+    <select style="border: 1px;" aria-placeholder="place name">
+        
+       
+        <option value="mr">petra</option>
+        <option value="ms">wadi rum</option>
+        <option value="mrs">al-karak</option>
+        <option value="mr">Ajloun</option>
+        <option value="ms">Jarash</option>
+        <option value="mrs">Roman Amphitheater</option>
+        <option value="mr">Dead Sea</option>
+        <option value="ms">Mount Nebo</option>
+        <option value="mrs">Dana Village Camp</option>
+        <option value="mr">aqaba</option>
+        <option value="ms">Ajloun Cable Car</option>
+        <option value="mrs">Mujib</option>
+    </select>
+</div></td>
+
+
+
+
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+
+
+
+
+   <!--  <div class="inputBox">
+        <h3>where to</h3>
+       <input type="text" placeholder="place name">
+        
+    </div>
+<td colspan="3">
+    <div class="inputBox">
+        <h3>how many</h3>
+        <input type="number" placeholder="number of guests">
+    </div></td>
+	
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	
+	
+	
+	<td>
+	<div class="inputBox">
+        <h3>address</h3>
+        <input type="text" placeholder="enter your address">
+	</td></tr>
+	
+	
+	
+	
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	
+	
+	
+	
+	
+	<tr>
+<td colspan="3">
+    <div class="inputBox">
+        <h3>arrivals</h3>
+        <input type="date">
+    </div></td>
+	
+	
+	
+	
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<td colspan="3">
+    <div class="inputBox">
+        <h3>leaving</h3>
+        <input type="date">
+    </div></td></tr>
+<tr>
+<td >
+    <input type="submit" class="btn" value="book now">
+	</td></tr>
+</table>
+</form>
+
+    </div>
+</section>-->
+
+
+
+
+
+<section class="booking">
+    <h1 class="heading-title">book your trip</h1>
+
+
+
+    <form action="book_form.php" method="post" class="book-form">
+
+
+
+
+
+
+<div class="flex">
+<div class="inputBox">
+   <span>name :</span>
+    <input type="text" placeholder="enter your name" name="name">
+</div>
+
+
+<div class="inputBox">
+<span>email :</span>
+    <input type="email" placeholder="enter your email" name="email">
+</div>
+
+<div class="inputBox">
+<span>phone :</span>
+    <input type="number" placeholder="enter your number" name="phone">
+</div>
+
+<div class="inputBox">
+<span>address :</span>
+    <input type="text" placeholder="enter your address" name="address">
+</div>
+
+
+<div class="inputBox">
+<span>where to :</span>
+    <input type="text" placeholder="place your want to visit" name="location">
+</div>
+
+
+<div class="inputBox">
+<span>how many :</span>
+    <input type="number" placeholder="number of gusests" name="guests">
+</div>
+
+
+
+<div class="inputBox">
+    <span>arrivals :</span>
+    <input type="date"  name="arrivals">
+</div>
+
+<div class="inputBox">
+    <span>leaving :</span>
+    <input type="date" name="leaving">
+</div>
+
+
+
+</div>
+  </div>
+<input type="submit" class="btn"  name="send">
+</form>
+
+
+</section>
+
+<!--booking section ends-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- Custom js file link -->
+    <script src="script.js"></script>
+
+
+
+    </body>
+</html>
